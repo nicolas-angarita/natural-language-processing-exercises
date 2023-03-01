@@ -133,7 +133,7 @@ def get_news_blog_articles():
 
     else:
 
-        categories = ['business', 'sports', 'politics', 'technology']
+        categories = ['business', 'sports', 'technology', 'entertainment]
         urls = ['https://inshorts.com/en/read/' + category for category in categories]
 
         inshorts = []
